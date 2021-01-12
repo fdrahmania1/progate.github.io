@@ -1,0 +1,207 @@
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p, div {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Lucida Grande";
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* Ketik code Anda dibawah */
+header{
+  background-color:rgba(34,49,52,0.9);
+  height:65px;
+  width:100%;
+  z-index:10;
+  position:fixed;
+}
+
+.header-left{
+  float:left;
+}
+
+.logo{
+  margin-top:20px;
+  width:124px;
+}
+
+.header-right{
+  float:right;
+  background-color:rgba(255,255,255,0.3);
+}
+
+.login{
+  padding:0 25px;
+  color:white;  
+  line-height:65px;
+  display:block;
+}
+
+.header-right:hover{
+  background-color:rgba(255,255,255,0.5);
+}
+
+.isi{
+  background-image:url(https://prog-8.com/images/html/advanced/top_en.png);
+  background-size:cover;
+  padding: 180px 0 100px 0;
+  text-align:center;
+  color:white;
+}
+
+.container{
+  width:1170px;
+  padding:0 15px;
+  margin:0 auto;
+  
+}
+
+.isi h1{
+  font-size:45px;
+  letter-spacing:5px;
+  margin-bottom:10px;
+  opacity:0.7;
+}
+
+.container p{
+  margin-bottom:3px;
+  opacity:0.7;
+}
+
+.daftar{
+  color:white;
+  padding:12px 24px;
+  border-radius:4px;
+  display:inline-block;
+  opacity:0.8;
+}
+
+.daftar:hover{
+  opacity:1;
+}
+
+.email{
+  background-color:#239b76;
+  margin:20px 0;
+}
+
+.facebook{
+  background-color:#3b5998;
+  margin-right:10px;
+}
+
+.twitter{
+  background-color:#55acee;
+  
+}
+
+.daftar-total p{
+  margin:10px 0;
+}
+
+.pelajaran{
+  text-align:center;
+  width:100%;
+  height:580px;
+  background-color:#f7f7f7;
+}
+
+
+.judul h2{
+  font-weight:normal;
+  
+}
+
+.judul{
+  padding-top:60px;
+  padding-bottom:30px;
+  color:#5f5d60;
+}
+
+.detail-pelajaran{
+  float:left;
+  width:25%;
+}
+
+.icon p{
+  position:absolute;
+  top:90px;
+  width:100%;
+  color:white;
+  opacity:1;
+}
+
+.icon{
+  position:relative;
+}
+
+
+.penjelasan{
+  font-size:15px;
+  width:80%;
+  margin-top:20px;
+  display:inline-block;
+  color:#b3aeb5;
+}
+
+.message{
+  margin-top:60px;
+  padding-bottom:80px;
+  text-align:center;
+  border-bottom: 1px solid #eee;
+  
+}
+
+.pertanyaan h2, h3{
+  font-weight:normal;
+  color:#5f5d60;
+}
+
+.pertanyaan h3{
+  margin-bottom:30px;
+}
+
+.tombol{
+  color:white;
+  background-color:#5dca88;
+  opacity:0.8;
+  padding:15px 40px;
+  box-shadow:0 7px #1a7940;
+  border-radius:4px;
+  cursor:pointer;
+}
+
+.tombol:hover{
+  background-color:#5dca88;
+  opacity:1;
+}
+
+.tombol:active{
+  box-shadow:none;
+  top:7px;
+  position:relative;
+}
+
+.bawah{
+  padding-top:30px;
+  border-top:1px solid #eee;
+}
+
+.bawah p{
+  font-size:12px;
+  color:#b3aeb5;
+}
+
+.logo-bawah{
+  width:124px;
+}
